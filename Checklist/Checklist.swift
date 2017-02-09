@@ -39,6 +39,7 @@ class Checklist: NSObject, NSCoding {
         aCoder.encodeObject(iconName, forKey: "IconName")
     }
     
+    //sacewcw
     
     func countUncheckedItems() -> Int {
         var count = 0
